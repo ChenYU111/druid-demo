@@ -20,6 +20,8 @@ HELP.md
 *.cmd
 *.log
 mvnw
+### 日志压缩文件 ###
+*.log.gz
 
 ### NetBeans ###
 /nbproject/private/

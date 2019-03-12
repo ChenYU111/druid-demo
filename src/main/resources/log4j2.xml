@@ -56,7 +56,7 @@
         </RollingFile>
 
         <!--处理error级别的日志，并把该日志放到logs/error.log文件中-->
-        <RollingFile name="RollingFileError" fileName="./logs/error.log"
+        <RollingFile name="RollingFileError" fileName="D:/logs/error.log"
                      filePattern="logs/$${date:yyyy-MM}/error-%d{yyyy-MM-dd}-%i.log.gz">
             <ThresholdFilter level="ERROR"/>
             <PatternLayout
